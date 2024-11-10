@@ -5,33 +5,46 @@ description:
 background: 'img/Banner-Owen-Home.png'
 
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
 <body>
-    <!--
-    <header>
-        <h1>Welcome to My Personal Website</h1> 
-    </header>
-    -->
-    <main>
-        <section>
-            <h2>Philosophy</h2>
-            <p>Owen Flanagan is the James B. Duke University Professor Emeritus of Philosophy and Professor of Neurobiology 
-                Emeritus at Duke University. With a Ph.D. from Boston University, he has taught at Wellesley College and 
-                Duke University, where he has made significant contributions to the fields of philosophy of mind, ethics, 
-                and cross-cultural philosophy. His work integrates insights from psychology, neuroscience, and anthropology, 
-                offering a comprehensive approach to understanding human consciousness and moral psychology1. Owen Flanagan 
-                is also a Faculty Fellow in Cognitive Neuroscience and Co-Director of the Center for Comparative Philosophy. </p>
-        </section>
-        
-        
-    </main>
-    <!--
-    <footer>
-        <p>&copy; 2024 My Personal Website</p>
-        <ul>
-            <li><a href="https://github.com/yourusername">GitHub</a></li>
-            <li><a href="https://twitter.com/yourusername">Twitter</a></li>
-            <li><a href="https://linkedin.com/in/yourusername">LinkedIn</a></li>
-        </ul>
-    </footer>
-    -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>Feel free to reach out to us using the form below:</p>
+
+    <form action="your-server-endpoint" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Website Name</p>
+  </footer>
 </body>
+</html>
+
