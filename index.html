@@ -4,14 +4,139 @@ background: 'img/Owen-banner-2.webp'
 title: Home
 description: Philosophy
 ---
-<style>
-  .img-smaller {
-    width: 400px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .featured {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .featured img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .featured a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            display: block;
+            transition: color 0.2s ease;
+        }
+
+        .featured a:hover {
+            color: #e74c3c;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .book {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .book:hover {
+            transform: translateY(-5px);
+        }
+
+        .book img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .book a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            display: block;
+            padding: 0.5rem;
+            transition: color 0.2s ease;
+        }
+
+        .book a:hover {
+            color: #e74c3c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 2rem;
+        }
+      
+        .img-smaller {
+          width: 400px; /* Adjust the width as needed */
+          height: auto; /* Maintain aspect ratio */
   }
 </style>
 
 <img class="img-fluid img-smaller" src="img/Owen portrait.jpg" alt="Owen Flanagan">
+    
+</head>
+<body>
+    <header>
+        <h1>About the Author</h1>
+        <p>Owen Flanagan is the James B. Duke University Professor Emeritus of Philosophy and Professor of 
+  Neurobiology Emeritus at Duke University. With a Ph.D. from Boston University, he has taught at 
+  Wellesley College and Duke University, where he has made significant contributions to the fields 
+  of philosophy of mind, ethics, and cross-cultural philosophy. His work integrates insights from 
+  psychology, neuroscience, and anthropology, offering a comprehensive approach to understanding human 
+  consciousness and moral psychology. Owen Flanagan is also a Faculty Fellow in Cognitive Neuroscience 
+  and Co-Director of the Center for Comparative Philosophy.</p>
+    </header>
+
+    <!-- Featured Book Section -->
+    <div class="featured">
+        <img src="img/books/What Is It Like to Be an Addict Understanding Substance Abuse.jpg" alt="What Is It Like to Be an Addict">
+        <a href="https://a.co/d/4L7Gpal">What Is It Like to Be an Addict?: Understanding Substance Abuse</a>
+    </div>
+  
 
 <p>Owen Flanagan is the James B. Duke University Professor Emeritus of Philosophy and Professor of 
   Neurobiology Emeritus at Duke University. With a Ph.D. from Boston University, he has taught at 
