@@ -122,26 +122,25 @@ description: Philosophy
         align-items: center;
         margin: 2rem auto;
         text-align: center;
+        background-color: #fff;
+        padding: 1.5rem;
+        border-radius: 8px; /* Slight rounding for a modern look */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        max-width: 400px; /* Limit width for cleaner layout */
     }
 
     .author-profile img {
-        width: 150px; /* Adjust size */
-        height: 150px; /* For circle shape */
-        border-radius: 50%; /* Circular shape */
-        border: 3px solid #2c3e50; /* Subtle border */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for emphasis */
-        object-fit: cover; /* Ensure the image fits the circle */
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .author-profile img:hover {
-        transform: scale(1.05); /* Slight zoom on hover */
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More emphasis on hover */
+        width: 100%; /* Full width of the container */
+        max-width: 350px; /* Maintain a reasonable size */
+        height: auto; /* Keep aspect ratio */
+        border-radius: 8px; /* Soft rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add emphasis */
+        object-fit: cover; /* Ensure content fits neatly */
     }
 
     .author-profile .author-name {
         margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #2c3e50;
         font-weight: bold;
     }
@@ -150,17 +149,18 @@ description: Philosophy
         font-size: 1rem;
         color: #555;
         margin-top: 0.5rem;
-        max-width: 400px; /* Optional for longer descriptions */
+        max-width: 350px; /* Limit text width to match the image */
+        line-height: 1.5; /* Improve readability */
     }
 </style>
 
 <div class="author-profile">
     <img src="img/Owen portrait.jpg" alt="Owen Flanagan">
     <div class="author-name">Owen Flanagan</div>
-    <div class="author-description">A renowned philosopher specializing in the philosophy of mind, ethics, and the integration of philosophy with neuroscience.</div>
+    <div class="author-description">
+        A renowned philosopher specializing in the philosophy of mind, ethics, and the integration of philosophy with neuroscience. Explore his groundbreaking ideas and contributions to modern philosophy.
+    </div>
 </div>
-
-<img class="img-fluid img-smaller" src="img/Owen portrait.jpg" alt="Owen Flanagan">
     
 </head>
 <body>
