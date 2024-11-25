@@ -7,35 +7,111 @@ background: 'img/Owen-banner-books.webp'
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Book Store</title>
-    <link rel="assets" href="styles.scss">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .book {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .book:hover {
+            transform: translateY(-5px);
+        }
+
+        .book img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .book a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            display: block;
+            padding: 0.5rem;
+            transition: color 0.2s ease;
+        }
+
+        .book a:hover {
+            color: #e74c3c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Book Store</h1>
-    <ul>
-        <li><img src="img/books/Gerography_of_Morals.jpg" alt="Gerography_of_Morals"><a href="https://a.co/d/fRHPlna">The Geography of Morals: Varieties of Moral Possibility</a></li>
-        <li><img src="img/books/Bodhisattvas_brain.jpg" alt="Bodhisattvas Brain"><a href="https://a.co/d/2aYcC2K">The Bodhisattva's Brain: Buddhism Naturalized</a></li>
-        <li><img src="img/books/problem_of_the_soul.jpg" alt="Problem of the soul"><a href="https://a.co/d/8Jpl5cg">The Problem Of The Soul: Two Visions Of Mind And How To Reconcile Them</a></li>
-        <li><img src="img/books/how_to_do_things_with_emotions.jpg" alt="Do things with emotions"><a href="https://a.co/d/2Rmgyr7">How to Do Things with Emotions: The Morality of Anger and Shame across Cultures</a></li>
-        <li><img src="img/books/against_happiness.jpg", alt="Against happiness"><a href="https://a.co/d/j7VqsHp">Against Happiness</a></li>
-        <li><img src="img/books/The Science of the Mind.jpg", alt="Science of the Mind"><a href="https://a.co/d/5TRl9h0">The Science of the Mind</a></li>
-        <li><img src="img/books/the really hard problem.jpg"><a href="https://a.co/d/gBPjpvr">The Really Hard Problem: Meaning in a Material World</a></li>
-        <li><img src="img/books/Self Expressions Mind, Morals, and the Meaning of Life.jpg", alt="Self Expression"><a href="https://a.co/d/enA0903">Self Expressions: Mind, Morals, and the Meaning of Life</a></li>
-        <li><img src="img/books/Dreaming Souls Sleep, Dreams and the Evolution of the Conscious Mind.jpg", alt="book"><a href="https://a.co/d/59QHo7R">Dreaming Souls: Sleep, Dreams and the Evolution of the Conscious Mind</a></li>
-        <li><img src="img/books/Consciousness Reconsidered.jpg", alt="Consciousness Reconsidered.jpg"><a href="https://a.co/d/eUcNLGa">Consciousness Reconsidered</a></li>
-        <li><img src="img/books/What Is It Like to Be an Addict Understanding Substance Abuse", alt="What Is It Like to Be an Addict Understanding Substance Abuse"><a href="https://a.co/d/4L7Gpal">What Is It Like to Be an Addict?: Understanding Substance Abuse</a></li>
-        <li><img src="img/books/Neuroexistentialism Meaning, Morals, and Purpose in the Age of Neuroscience.jpg" alt="Neuroexistentialism Meaning, Morals, and Purpose in the Age of Neuroscience.jpg"><a href="https://a.co/d/gKNXveU">Neuroexistentialism: Meaning, Morals, and Purpose in the Age of Neuroscience</a></li>
-        <li><img src="img/books/Varieties of Moral Personality Ethics and Psychological Realism.jpg" alt="Varieties of Moral Personality Ethics and Psychological Realism.jpg"><a href="https://a.co/d/e2KmBB8">Varieties of Moral Personality: Ethics and Psychological Realism</a></li>
-        <li><img src="img/books/Naturalism, Human Flourishing, and Asian Philosophy.jpg" alt="Naturalism, Human Flourishing, and Asian Philosophy.jpg"><a href="https://a.co/d/d4ZRhwB">Naturalism, Human Flourishing, and Asian Philosophy</a></li>
-        <li><img src="img/books/The Moral Psychology of Anger.jpg" alt="The Moral Psychology of Anger.jpg"><a href="https://a.co/d/dvvDHuj">The Moral Psychology of Anger</a></li>
-        <li><img src="img/books/The Oneness Hypothesis Beyond the Boundary of Self.jpg" alt="The Oneness Hypothesis Beyond the Boundary of Self.jpg"><a href="https://a.co/d/heTulRm">The Oneness Hypothesis: Beyond the Boundary of Self</a></li>
-        <li><a href="https://a.co/d/coyBkJF">The Natural Method: Essays on Mind, Ethics, and Self in Honor of Owen Flanagan</a></li>
-        <li><img src="img/books/Ethics in Action for Sustainable Development.jpg" alt="Ethics in Action for Sustainable Development.jpg"><a href="https://a.co/d/9j75int">Ethics in Action for Sustainable Development</a></li>
-        <li><img src="img/books/A Mirror Is for Reflection Understanding Buddhist Ethics.jpg" alt="A Mirror Is for Reflection Understanding Buddhist Ethics.jpg"><a href="https://a.co/d/0xRRl0Z">A Mirror Is for Reflection: Understanding Buddhist Ethics</a></li>
-        <li><img src="img/books/Naturalizing Epistemic Virtue.jpg" alt="Naturalizing Epistemic Virtue.jpg"><a href="https://a.co/d/2zQihS4">Naturalizing Epistemic Virtue</a></li>
-    </ul>
+    <header>
+        <h1>Books Collection</h1>
+        <p>Explore a curated list of philosophical and ethical books.</p>
+    </header>
+
+    <div class="container">
+        <div class="book">
+            <img src="img/books/Gerography_of_Morals.jpg" alt="The Geography of Morals">
+            <a href="https://a.co/d/fRHPlna">The Geography of Morals: Varieties of Moral Possibility</a>
+        </div>
+        <div class="book">
+            <img src="img/books/Bodhisattvas_brain.jpg" alt="The Bodhisattva's Brain">
+            <a href="https://a.co/d/2aYcC2K">The Bodhisattva's Brain: Buddhism Naturalized</a>
+        </div>
+        <div class="book">
+            <img src="img/books/problem_of_the_soul.jpg" alt="The Problem Of The Soul">
+            <a href="https://a.co/d/8Jpl5cg">The Problem Of The Soul: Two Visions Of Mind And How To Reconcile Them</a>
+        </div>
+        <div class="book">
+            <img src="img/books/how_to_do_things_with_emotions.jpg" alt="How to Do Things with Emotions">
+            <a href="https://a.co/d/2Rmgyr7">How to Do Things with Emotions: The Morality of Anger and Shame across Cultures</a>
+        </div>
+        <div class="book">
+            <img src="img/books/against_happiness.jpg" alt="Against Happiness">
+            <a href="https://a.co/d/j7VqsHp">Against Happiness</a>
+        </div>
+        <div class="book">
+            <img src="img/books/The Science of the Mind.jpg" alt="The Science of the Mind">
+            <a href="https://a.co/d/5TRl9h0">The Science of the Mind</a>
+        </div>
+        <!-- Add additional books here using the same structure -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Books Collection | Designed with Love</p>
+    </footer>
 </body>
 </html>
-
-</html>
-
