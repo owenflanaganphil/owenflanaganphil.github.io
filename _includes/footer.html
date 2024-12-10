@@ -57,14 +57,16 @@
             </a>
           </li>
           {% endif %}
+          {% if site.bsky_username %}
           <li class="list-inline-item">
             <a href="https://bsky.app/profile/{{ site.bsky_username }}" target="_blank">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fa-brands fa-bluesky fa-stack-1x fa-inverse"></i> <!-- Replace with the appropriate BlueSky icon class if available -->
+                <i class="fa-brands fa-bluesky"></i> <!-- Replace with the appropriate BlueSky icon class if available -->
               </span>
             </a>
           </li>
+          {% endif %}
 
           {% if site.github_username %}
           <li class="list-inline-item">
