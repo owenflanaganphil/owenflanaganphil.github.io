@@ -16,20 +16,20 @@ background: 'img/Banner-Owen-Home.png'
     <h1>Contact Owen</h1>
     <p>Feel free to reach out to Owen using the form below:</p>
 
-    <form name="contact" method="POST" action="https://polite-croissant-09e608.netlify.app" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact">
-  
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br><br>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br><br>
-
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-      <button type="submit">Send Message</button>
-    </form>
+    <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
   </main>
 
