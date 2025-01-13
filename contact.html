@@ -5,8 +5,6 @@ description:
 background: 'img/Banner-Owen-Home.png'
 
 ---
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,22 +16,21 @@ background: 'img/Banner-Owen-Home.png'
     <h1>Contact Owen</h1>
     <p>Feel free to reach out to Owen using the form below:</p>
 
-    <!-- Netlify Form -->
-    <form name="contact" method="POST" data-netlify="true">
-      <!-- Hidden Input for Netlify -->
+    <form name="contact" method="POST" action="https://your-netlify-site.netlify.app" data-netlify="true">
       <input type="hidden" name="form-name" value="contact">
-
+  
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" required><br><br>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required><br><br>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
       <button type="submit">Send Message</button>
     </form>
+
   </main>
 
   <footer>
