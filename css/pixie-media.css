@@ -1,0 +1,652 @@
+  @media screen and (max-width:1919px) {
+      .common-section {
+          margin: 80px 0;
+      }
+
+      .common-top-section {
+          margin-top: 80px;
+      }
+
+      .common-bottom-section {
+          margin-bottom: 80px;
+      }
+
+      .title-box h2 {
+          font-size: 42px;
+      }
+
+      .custom-container {
+          padding: 0 150px;
+      }
+
+      header .custom-container {
+          padding: 0 100px;
+      }
+
+      .banner-section .left-box {
+          padding: 50px 0 0 100px;
+      }
+
+      .banner-section .right-box {
+          padding: 50px 100px 0 00;
+      }
+
+      .banner-section .left-box .img-box {
+          width: 85px;
+      }
+
+      .banner-section h1 {
+          font-size: 82px;
+          line-height: 90px;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 56px;
+          line-height: 80px;
+          width: 70%;
+      }
+
+      .cta-section .contain-box {
+          padding: 60px;
+      }
+
+      .about-flanagan-section .contain-box {
+          padding: 40px 60px;
+      }
+
+      .vidio-section {
+          padding-top: 80px;
+          margin-bottom: 280px;
+      }
+  }
+
+
+  @media screen and (max-width:1599px) {
+      .common-btn {
+          font-size: 22px;
+          padding: 12px 50px;
+      }
+
+      .custom-container {
+          padding: 0 100px;
+      }
+
+      header .left-logo-box a {
+          font-size: 28px;
+      }
+
+      footer .contain-box a {
+          font-size: 28px;
+      }
+
+      .common-section {
+          margin: 60px 0;
+      }
+
+      .common-top-section {
+          margin-top: 60px;
+      }
+
+      .common-bottom-section {
+          margin-bottom: 60px;
+      }
+
+      .vidio-section {
+          background-color: #ECF8FF;
+          padding-top: 60px;
+          margin-bottom: 260px;
+      }
+
+      .title-box h2 {
+          font-size: 36px;
+          margin-bottom: 20px;
+      }
+
+      .an-addict-section .title-box h2 {
+          width: 75%;
+      }
+
+      .banner-section h1 {
+          font-size: 68px;
+          line-height: 75px;
+      }
+
+      .about-flanagan-section .contain-box p {
+          font-size: 22px;
+      }
+
+      .published-books-section .common-grid {
+          margin: 40px 0;
+      }
+
+      .vidio-section .light-shape {
+          top: -60px;
+          right: -60px;
+          width: 150px;
+      }
+
+      .vidio-section .dark-shape {
+          bottom: -6px;
+          left: -130px;
+          width: 150px;
+      }
+
+      .an-addict-section a.buy-now-btn {
+          font-size: 22px;
+      }
+
+      .an-addict-section a.buy-now-btn img {
+          width: 25px;
+      }
+
+      footer .contain-box p {
+          font-size: 20px;
+      }
+  }
+
+
+
+  @media screen and (max-width:1439px) {
+      .vidio-section iframe.vidio {
+          height: 450px;
+          border-radius: 20px;
+      }
+
+      .vidio-section .vidio-box {
+          height: 250px;
+          width: 75%;
+      }
+
+      .vidio-section .dark-shape {
+          left: -110px;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 48px;
+          line-height: 70px;
+          width: 70%;
+      }
+
+      .an-addict-section a.buy-now-btn {
+          padding: 10px 20px;
+          font-size: 20px;
+      }
+  }
+
+  @media screen and (max-width:1365px) {
+      .custom-container {
+          padding: 0 60px;
+      }
+
+      header .custom-container {
+          padding: 0 60px;
+      }
+
+      .banner-section .left-box {
+          padding: 25px 0 0 60px;
+      }
+
+      .banner-section .right-box {
+          padding: 25px 60px 0 00;
+      }
+
+      .banner-section .left-box .img-box {
+          width: 75px;
+      }
+
+      .banner-section h1 {
+          font-size: 56px;
+          line-height: 70px;
+      }
+
+      .title-box h2 {
+          font-size: 32px;
+      }
+
+      footer {
+          padding: 20px 0;
+      }
+  }
+
+  @media screen and (max-width:1279px) {
+    body.menu-open {
+        overflow-y: hidden;
+    }
+      header .left-logo-box a {
+          font-size: 24px;
+      }
+
+      .banner-section .contain-box {
+          margin-top: 50px;
+      }
+
+      .about-flanagan-section .contain-box {
+          padding: 30px 40px;
+      }
+
+      .about-flanagan-section .contain-box p {
+          font-size: 20px;
+          line-height: 30px;
+      }
+
+      .common-section {
+          margin: 40px 0;
+      }
+
+      .banner-section h1 {
+          font-size: 48px;
+          line-height: 60px;
+      }
+
+      header ul.nav-box li a {
+          padding: 25px 0;
+      }
+
+      .banner-section .left-box::after {
+          bottom: 20%;
+      }
+
+      .banner-section .left-box .img-box {
+          width: 65px;
+      }
+
+      .title-box h2 {
+          font-size: 28px;
+      }
+
+      .an-addict-section a.buy-now-btn {
+          font-size: 18px;
+      }
+
+      .published-books-section .common-grid {
+          margin: 30px 0;
+      }
+
+      .vidio-section {
+          padding-top: 40px;
+          margin-bottom: 260px;
+      }
+
+      .common-btn {
+          font-size: 20px;
+          padding: 10px 40px;
+      }
+
+      .vidio-section .vidio-box {
+          height: 200px;
+          margin-top: 30px;
+          width: 80%;
+      }
+
+      .vidio-section {
+          padding-top: 30px;
+          margin-bottom: 240px;
+      }
+
+      .vidio-section iframe.vidio {
+          height: 400px;
+      }
+
+      .vidio-section .dark-shape {
+          left: -90px;
+          width: 100px;
+      }
+
+      .vidio-section .light-shape {
+          top: -50px;
+          right: -50px;
+          width: 100px;
+      }
+
+      .cta-section .contain-box {
+          padding: 30px 40px;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 42px;
+          line-height: 60px;
+          width: 70%;
+      }
+
+      .cta-section form {
+          width: 100%;
+          padding: 15px;
+          border-radius: 15px;
+      }
+
+      .cta-section form input,
+      .cta-section form textarea {
+          font-size: 16px;
+          padding: 10px 20px;
+          margin-bottom: 16px;
+      }
+
+      .cta-section form input::placeholder,
+      .cta-section form textarea::placeholder {
+          font-size: 16px;
+      }
+
+      footer .contain-box a {
+          font-size: 24px;
+      }
+
+      footer .contain-box p {
+          font-size: 18px;
+      }
+  }
+
+
+  @media screen and (max-width:1023px) {
+      header .custom-container {
+          padding: 0 30px;
+      }
+
+      .custom-container {
+          padding: 0 30px;
+      }
+
+      header ul.nav-box {
+          gap: 16px;
+      }
+
+      .banner-section .contain-box {
+          margin-top: 20px;
+          margin-bottom: 50px;
+      }
+
+      .banner-section .left-box {
+          padding: 25px 0 0 30px;
+      }
+
+      .banner-section .right-box {
+          padding: 25px 30px 0 00;
+      }
+
+      .common-section {
+          margin: 30px 0;
+      }
+
+      .common-top-section {
+          margin-top: 30px;
+      }
+
+      .common-bottom-section {
+          margin-bottom: 30px;
+      }
+
+      .banner-section .left-box .img-box {
+          width: 50px;
+      }
+
+      .banner-section h1 {
+          font-size: 42px;
+          line-height: 50px;
+      }
+
+      .about-flanagan-section .contain-box p {
+          font-size: 18px;
+          line-height: 28px;
+      }
+
+      .about-flanagan-section .contain-box {
+          padding: 20px 20px;
+      }
+
+      .about-flanagan-section .title-box {
+          margin-bottom: 15px;
+      }
+
+      .title-box h2 {
+          font-size: 24px;
+          margin-bottom: 15px;
+      }
+
+      .an-addict-section .title-box h2 {
+          width: 100%;
+      }
+
+      .published-books-section .common-grid {
+          margin: 20px 0;
+          grid-template-columns: repeat(2, 1fr);
+      }
+
+      .vidio-section {
+          padding-top: 30px;
+          margin-bottom: 130px;
+      }
+
+      .vidio-section iframe.vidio {
+          height: 300px;
+      }
+
+      .vidio-section .dark-shape {
+          left: -60px;
+          width: 80px;
+      }
+
+      .vidio-section .light-shape {
+          top: -35px;
+          right: -35px;
+          width: 80px;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 38px;
+          line-height: 54px;
+          width: 100%;
+      }
+
+      .cta-section .contain-box {
+          padding: 20px 20px;
+      }
+
+
+
+      .common-btn {
+          font-size: 18px;
+          padding: 5px 30px;
+      }
+  }
+
+  @media screen and (max-width:767px) {
+
+      /* header  */
+      body.menu-open {
+          overflow-y: hidden;
+      }
+
+      .menu-open header {
+          position: fixed;
+          top: 0 !important;
+      }
+
+      header .header-box .menu-box {
+          display: block;
+      }
+
+      header .right-nav-box {
+          display: none;
+          padding-top: 64px;
+          top: 0;
+          position: fixed;
+          left: 0;
+          background: white;
+          height: 100%;
+          width: 100%;
+      }
+
+      header ul.nav-box {
+          gap: 3px;
+          display: block;
+          flex-wrap: wrap;
+      }
+
+      header ul.nav-box li a {
+          font-size: 16px;
+          padding: 5px 0;
+          margin-bottom: 5px;
+          display: block;
+          padding-left: 20px;
+      }
+
+      header ul.nav-box li a.active:before,
+      header ul.nav-box li a:hover:before {
+          display: none;
+      }
+
+      .menu-open header .right-nav-box {
+          display: block;
+      }
+
+      /* ////////////// */
+      .custom-container {
+          padding: 0 20px;
+      }
+
+      header .custom-container {
+          padding: 0 20px;
+      }
+
+      .banner-section .left-box {
+          padding: 30px 0 0 20px;
+      }
+
+      header {
+          padding: 15px 0;
+      }
+
+      .left-box,
+      .right-box {
+          width: 100% !important;
+      }
+
+      .banner-section .contain-box {
+          margin-top: 50px;
+          margin-bottom: 100px;
+      }
+
+      .banner-section .right-box {
+          padding: 25px 0px 0 00;
+      }
+
+      .banner-section .right-box .img-box img {
+          width: 75%;
+          float: inherit;
+          display: block;
+          margin: 0 auto;
+      }
+
+      .about-flanagan-section .contain-box .left-box img {
+          width: 100%;
+          margin-bottom: 30px;
+      }
+
+      .an-addict-section .contain-box .right-box img {
+          float: inherit;
+          width: 75%;
+          margin: 0 auto;
+          display: block;
+      }
+
+      .vidio-section .vidio-box {
+          width: 90%;
+      }
+
+      .vidio-section .dark-shape {
+          display: none;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 32px;
+          margin-bottom: 20px;
+      }
+
+      .cta-section form {
+          padding: 30px 30px;
+          border-radius: 15px;
+      }
+
+      footer .contain-box {
+          justify-content: center;
+          text-align: center;
+      }
+
+      footer .contain-box p {
+          font-size: 16px;
+          width: 100%;
+          order: 2;
+      }
+  }
+
+  @media screen and (max-width:639px) {
+      .common-btn {
+          font-size: 16px;
+          padding: 3px 25px;
+      }
+
+      .custom-container {
+          padding: 0 15px;
+      }
+
+      header .custom-container {
+          padding: 0 15px;
+      }
+
+      .banner-section .left-box {
+          padding: 30px 0 0 15px;
+      }
+
+      .title-box h2 {
+          font-size: 22px;
+          /* text-align: center; */
+      }
+
+      .published-books-section .common-grid p.book-title {
+          font-size: 15px;
+          font-weight: 500;
+      }
+
+      .published-books-section .common-grid {
+          margin: 25px 0;
+          gap: 30px 20px;
+      }
+
+      .an-addict-section .contain-box .left-box {
+          text-align: center;
+          order: 1;
+          margin-top: 30px;
+      }
+
+      .vidio-section {
+          padding-top: 30px;
+          margin-bottom: 49px;
+      }
+
+      .vidio-section .vidio-box {
+          width: 100%;
+      }
+
+      .vidio-section .light-shape {
+          display: none;
+      }
+
+      .vidio-section iframe.vidio {
+          height: 220px;
+      }
+
+      .cta-section .contain-box {
+          padding: 20px 10px;
+      }
+
+      .cta-section form {
+          padding: 20px 10px;
+      }
+
+      .cta-section .left-box h2 {
+          font-size: 24px;
+      }
+  }
+
+
+
+
